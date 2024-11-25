@@ -1,4 +1,5 @@
 import { Hono } from 'jsr:@hono/hono';
+import playerRouter from './src/routes/players.ts';
 
 // runtime with deno, but use Hono for a nice web server experience
 
@@ -10,5 +11,7 @@ import { Hono } from 'jsr:@hono/hono';
 const app = new Hono();
 
 app.get('/', (c) => c.text('Unofficial vlr.gg API'));
+
+app.route('/player', playerRouter);
 
 Deno.serve(app.fetch);
