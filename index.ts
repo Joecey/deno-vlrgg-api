@@ -1,5 +1,5 @@
 import { Hono } from 'jsr:@hono/hono';
-import playerRouter from './src/routes/players.ts';
+import playerRouter from '@/routes/players.ts';
 
 // runtime with deno, but use Hono for a nice web server experience
 
