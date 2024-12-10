@@ -9,4 +9,4 @@ Unofficial API for the vlr.gg website with cron jobs to update PostgresSQL DB
 - PostgresSQL
 - Drizzle ORM
 - Deployed with Railway
-- Puppeteer for cron job scraping 
+- Puppeteer for cron job scraping

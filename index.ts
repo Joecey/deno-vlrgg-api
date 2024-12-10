@@ -9,7 +9,6 @@ import playerRouter from '@/routes/players.ts';
 // TODO: cron jobs to update db
 
 const app = new Hono();
-
 app.get('/', (c) => c.text('Unofficial vlr.gg API'));
 
 app.route('/player', playerRouter);

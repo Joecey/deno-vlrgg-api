@@ -5,8 +5,8 @@
     "jsr:@std/assert@1": "1.0.8",
     "jsr:@std/internal@^1.0.5": "1.0.5",
     "npm:@types/pg@^8.11.10": "8.11.10",
-    "npm:drizzle-kit@~0.28.1": "0.28.1_esbuild@0.19.12",
-    "npm:drizzle-orm@~0.36.4": "0.36.4_@types+pg@8.11.10_pg@8.13.1",
+    "npm:drizzle-kit@0.30": "0.30.0_esbuild@0.19.12",
+    "npm:drizzle-orm@0.38": "0.38.0_@types+pg@8.11.10_pg@8.13.1",
     "npm:pg@^8.13.1": "8.13.1"
   },
   "jsr": {
@@ -193,14 +193,14 @@
     "buffer-from@1.1.2": {
       "integrity": "sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ=="
     },
-    "debug@4.3.7": {
-      "integrity": "sha512-Er2nc/H7RrMXZBFCEim6TCmMk02Z8vLC2Rbi1KEBggpo0fS6l0S1nnapwmIi3yW/+GOJap1Krg4w0Hg80oCqgQ==",
+    "debug@4.4.0": {
+      "integrity": "sha512-6WTZ/IxCY/T6BALoZHaE4ctp9xm+Z5kY/pzYaCHRFeyVhojxlrm+46y68HA6hr0TcwEssoxNiDEUJQjfPZ/RYA==",
       "dependencies": [
         "ms"
       ]
     },
-    "drizzle-kit@0.28.1_esbuild@0.19.12": {
-      "integrity": "sha512-JimOV+ystXTWMgZkLHYHf2w3oS28hxiH1FR0dkmJLc7GHzdGJoJAQtQS5DRppnabsRZwE2U1F6CuezVBgmsBBQ==",
+    "drizzle-kit@0.30.0_esbuild@0.19.12": {
+      "integrity": "sha512-zAf0qg/BX2lV/Xip4igXrtbDv+Ub8S39U6qSOEGNvqcHrnmaQjS4mkkFZOUsgXRbuH56QUeWZxfnLHefrKCV5g==",
       "dependencies": [
         "@drizzle-team/brocli",
         "@esbuild-kit/esm-loader",
@@ -208,8 +208,8 @@
         "esbuild-register"
       ]
     },
-    "drizzle-orm@0.36.4_@types+pg@8.11.10_pg@8.13.1": {
-      "integrity": "sha512-1OZY3PXD7BR00Gl61UUOFihslDldfH4NFRH2MbP54Yxi0G/PKn4HfO65JYZ7c16DeP3SpM3Aw+VXVG9j6CRSXA==",
+    "drizzle-orm@0.38.0_@types+pg@8.11.10_pg@8.13.1": {
+      "integrity": "sha512-Ev1UYKOUxiVwLZZfos4hoNDMDkp313FqF0CHelhR+BeOdb76z/a6pKF6SgYQSrmj6EXH4cy6QIkmuxl2KIFW0A==",
       "dependencies": [
         "@types/pg",
         "pg"
@@ -409,8 +409,8 @@
     "dependencies": [
       "jsr:@std/assert@1",
       "npm:@types/pg@^8.11.10",
-      "npm:drizzle-kit@~0.28.1",
-      "npm:drizzle-orm@~0.36.4",
+      "npm:drizzle-kit@0.30",
+      "npm:drizzle-orm@0.38",
       "npm:pg@^8.13.1"
     ]
   }
